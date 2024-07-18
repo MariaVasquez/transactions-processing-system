@@ -22,8 +22,13 @@ donde se ejecuta el comando
 ````
 docker-compose up -d
 ````
-
 en este se encontrarán las conexiones de la base de datos y el Broker de mensajería
+
+Se debe agregar en la configuración del IDE en el VM options el aumento de la maquina virtual de java para que pueda procesar las transacciones necesarias
+
+````
+-Xms720m -Xmx50g
+````
 
 ## Guía de Uso y ejemplo de envio de solicitud
 
